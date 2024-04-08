@@ -1,0 +1,70 @@
+{
+    "telemetry.machineId": "24442ae7af28d3cae109d48428da972dd83f58819fd65ad2a5422a0b7b8a6b3d",
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": -1,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 42,
+            "activityBarWidth": 48,
+            "sideBarWidth": 531,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///d%3A/Bapro/ServicioRecaudacion",
+            "backupPath": "C:\\Users\\Dell\\AppData\\Roaming\\Code\\Backups\\63eba0a8a86f7af4a6a14504c7b6a338",
+            "uiState": {
+                "mode": 0,
+                "x": 372,
+                "y": 88,
+                "width": 1028,
+                "height": 776
+            }
+        },
+        "openedWindows": []
+    },
+    "windowControlHeight": 35,
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///d%3A/Bapro/WSDetector"
+            },
+            {
+                "folderUri": "file:///d%3A/Bapro/ServicioRecaudacion"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///d%3A/Capacitaciones/Paola/quimica/Unidad%2005/Python": "__default__profile__",
+            "file:///d%3A/Bapro/detector%20code": "__default__profile__",
+            "file:///d%3A/Desarrollo/EjemploFlask": "__default__profile__",
+            "file:///d%3A/Desarrollo/Ejemplospyne": "__default__profile__",
+            "file:///d%3A/Desarrollo/EjemploClienteSpyne": "__default__profile__",
+            "file:///d%3A/Bapro/WSDetector": "__default__profile__",
+            "file:///d%3A/Bapro/ServicioRecaudacion": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "{75B54B7B-EA83-4E0C-89C9-4D3E20F45EB7}"
+}

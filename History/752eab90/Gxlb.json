@@ -1,0 +1,20 @@
+    {
+        "python.pythonPath": "path/to/your/python", // Ruta al intérprete de Python
+        "python.linting.enabled": true, // Habilita el linting
+        "python.linting.pylintEnabled": true, // Habilita Pylint
+        "python.formatting.autopep8Path": "path/to/autopep8", // Ruta al formateador autopep8
+        "python.formatting.blackPath": "path/to/black", // Ruta al formateador Black
+        "python.formatting.yapfPath": "path/to/yapf", // Ruta al formateador YAPF
+        "python.linting.flake8Path": "path/to/flake8", // Ruta a Flake8
+        "python.linting.mypyEnabled": false, // Habilita o deshabilita MyPy
+        "python.linting.flake8Args": ["--max-line-length=120"], // Argumentos para Flake8
+        "python.testing.pytestArgs": ["tests"], // Argumentos para PyTest
+        "python.testing.unittestEnabled": false, // Habilita o deshabilita unittest
+        "python.testing.nosetestsEnabled": false, // Habilita o deshabilita nose tests
+        "python.analysis.typeCheckingMode": "off", // Modo de comprobación de tipos
+        "python.analysis.diagnosticSeverityOverrides": {
+            "reportMissingImports": "error",
+            "reportUnusedVariable": "warning"
+        }
+    }
+    

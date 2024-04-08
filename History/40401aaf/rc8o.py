@@ -1,0 +1,1 @@
+print('Este es un Título'.istitle())

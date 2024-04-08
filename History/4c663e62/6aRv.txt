@@ -1,0 +1,5 @@
+Gestor de Usuarios,
+Por favor, complete los campos requeridos,
+Usuario creado con éxito,
+Se ha leido los datos desde la base de datos,
+Por favor seleccione el género

@@ -1,0 +1,3 @@
+Gestor de Usuarios,
+Por favor, complete los campos requeridos,
+Usuario creado con éxito,

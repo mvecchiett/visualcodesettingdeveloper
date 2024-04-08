@@ -1,0 +1,56 @@
+serviciorecaudacion/
+│
+├── modelos/
+│   ├── __init__.py
+│   ├── ente.py
+│   ├── feriado.py
+│   └── ...
+│
+├── servicios/
+│   ├── __init__.py
+│   ├── deteccion.py
+│   ├── logica_negocios.py
+│   └── ...
+│
+└── tests/
+    ├── __init__.py
+    ├── test_deteccion.py
+    ├── test_logica_negocios.py
+    └── ...
+
+
+modelos/: Contiene todos los modelos de datos de nuestro proyecto, como Ente, Feriado, etc.
+
+servicios/: Contiene los módulos que implementan la lógica del servicio, como deteccion.py, logica_negocios.py, etc.
+
+tests/: Contiene los archivos de pruebas unitarias para nuestros módulos, como test_deteccion.py, test_logica_negocios.py, etc.
+
+controladores/: Este directorio podría contener los controladores de la aplicación, que son responsables de recibir las
+solicitudes del cliente, interactuar con los modelos y devolver las respuestas adecuadas. Esto es común en aplicaciones 
+web basadas en el patrón Modelo-Vista-Controlador (MVC).
+
+utils/ o helpers/: Estos directorios a menudo contienen funciones y clases de utilidad que se utilizan en todo el proyecto. 
+Pueden incluir funciones de ayuda genéricas, clases de manejo de archivos, funciones de formateo de datos, etc.
+
+config/: Aquí podrías almacenar archivos de configuración para el proyecto, como archivos de configuración de base de datos, 
+archivos de configuración de logging, archivos de configuración de seguridad, etc.
+
+migraciones/: Si estás utilizando un ORM como SQLAlchemy y necesitas gestionar cambios en la estructura de la base de datos, 
+podrías tener un directorio de migraciones que contenga scripts de migración para aplicar y revertir cambios en la base de datos.
+
+
+static/ y templates/: Si estás construyendo una aplicación web, es posible que necesites directorios para archivos estáticos como CSS, 
+JavaScript e imágenes, así como para archivos de plantillas HTML.
+
+logs/: Un directorio donde se almacenan los archivos de registro generados por la aplicación.
+
+docs/: Si estás escribiendo documentación para tu proyecto, podrías tener un directorio dedicado para archivos de documentación, 
+como documentos de diseño, manuales de usuario, etc.
+
+venv/ o virtualenv/: Si estás utilizando entornos virtuales para aislar las dependencias del proyecto, 
+podrías tener un directorio para el entorno virtual.
+
+Notas: 
+Cada uno de estos directorios que vayan a tener codigo fuente en python, deberia contiene un archivo __init__.py, 
+lo que hace que Python trate el directorio como un paquete y controlar el inicio de la ejecucion del paquete.
+
